@@ -1,1 +1,1 @@
-# password-generator
+**Password Generator Using Vanilla JavaScript**
