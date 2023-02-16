@@ -12,7 +12,7 @@ var generatePassword = function (characters) {
   var length;
   let isTrue;
   do {
-    length = window.prompt("Please Enter A Number between 8-128");
+    length = window.prompt("Please enter a Number between 8 and 128");
 
     isTrue = length && Number(length) && length >= 8 && length <= 128;
   } while (!isTrue);
